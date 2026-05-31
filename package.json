@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "jsmodbus": "^4.0.10",
+    "modbus-serial": "^8.0.23",
+    "nodemon": "^2.0.7",
+    "play-dl": "^1.9.7",
+    "serialport": "^13.0.0",
+    "ts-node": "^10.9.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}
